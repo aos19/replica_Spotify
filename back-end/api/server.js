@@ -45,9 +45,17 @@ app.use(express.static(path.join(__dirname, "../front-end/dist")));
 
 
 // Quando nenhuma das URLs acima for acessada, esse arquivo abaixo será acessado
-app.get("*", async (request, response) => {
-    response.sendFile(path.join(__dirname, "../front-end/dist/index.html"));
-});
+// app.get("*", async (request, response) => {
+//     response.sendFile(path.join(__dirname, "../front-end/dist/index.html"));
+// });
+
+// 🟢 Caminho corrigido para servir a build do front-end
+const frontEndPath = path.resolve(__dirname, "../../front-end/dist");
+app.use(express.static(frontEndPath));
+
+app.get("*", (req, res) => {
+    res.sendFile(path.join(frontEndPath, "index.html"));
+  });
 
 app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
