@@ -1,8 +1,168 @@
-// export const songsArray = [
 
-import { songsArray } from "../../../apiFRONT/api";
+// import { songsArray } from "../../../apiFRONT/api";
+export const songsArray = [
+{
+    image: "https://i.scdn.co/image/ab67616d0000b273153d79816d853f2694b2cc70",
+    name: "Blood Sugar Sex Magik",
+    duration: "2:55",
+    artist: "Red Hot Chilli Peppers",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp…",
+    id: 1
 
-export { songsArray };
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b273da6f73a25f4c79d0e6b4a8bd",
+    name: "Bad Liar",
+    duration: "3:12",
+    artist: "Imagine Dragons",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/barbie.mp3",
+    id: 2
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b273b7f88a6223cc5835233fc9d7",
+    name: "Niente a Perdere",
+    duration: "3:03",
+    artist: "Shiva",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/cantada-boba.mp3",
+    id: 3
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b273baae906c39533f95acb87d47",
+    name: "Sacrifice",
+    duration: "3:09",
+    artist: "The Weeknd",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/cantada-boba.mp3",
+    id: 4
+},
+{
+    image: "https://i.scdn.co/image/ab67616d00001e02f6b55ca93bd33211227b502b",
+    name: "Locked out of Heaven",
+    duration: "2:45",
+    artist: "Bruno Mars",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/cantada-boba.mp3",
+    id: 5
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b273e1773ff68e5a63841a1ade09",
+    name: "Stairway to Heaven",
+    duration: "2:22",
+    artist: "Led Zepplin",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/cantada-boba.mp3",
+    id: 6
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778",
+    name: "Hotel California",
+    duration: "2:59",
+    artist: "Eagles",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-noite.mp3",
+    id: 7
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b2731a84d71391df7469c5ab8539",
+    name: "Wish You Were Here",
+    duration: "2:39",
+    artist: "Pink Floyd",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/adorei.mp3",
+    id: 8
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b2731be40e44db112e123e5e8b51",
+    name: "Carry on Wayward Son",
+    duration: "5:11",
+    artist: "Kansas",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/adorei.mp3",
+    id: 9
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b273de1af2785a83cc660155a0c4",
+    name: "Can't Stop",
+    duration: "2:32",
+    artist: "Red Hot Chilli Peppers",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/amizade-com-ex.mp…",
+    id: 10
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b273de1af2785a83cc660155a0c4",
+    name: "I Could Die For You",
+    duration: "3:17",
+    artist: "Red Hot Chilli Peppers",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/amizade-com-ex.mp…",
+    id: 11
+},
+{
+    image: "https://i.scdn.co/image/ab67616d00001e02f448393cac82a5ed859d8c30",
+    name: "Cos Cos Cos",
+    duration: "3:10",
+    artist: "Clementino",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/universo.mp3",
+    id: 12
+},
+{
+    image: "https://i.scdn.co/image/ab67616d00001e02d8bfb4567b1b5e5bc4da915b",
+    name: "Oh Garota Eu Quero Você Só Pra Mim",
+    duration: "2:46",
+    artist: "Oruam",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/oh-garota.mp3",
+    id: 13
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b27382ea2e9e1858aa012c57cd45",
+    name:"Die With a Smile",
+    duration: "4:06",
+    artist: "Lady Gaga",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/oh-garota.mp3",
+    id: 14
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b27379b8d5f5821bddae3bc5e6a9",
+    name: "They Don't Care About Us",
+    duration: "4:14",
+    artist: "Micheal Jackson",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/oh-garota.mp3",
+    id: 15
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b27322f1b6c28ce5735646b2e569",
+    name: "Ramble On",
+    duration: "2:36",
+    artist: "Led Zepplin",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/peca-intima.mp3",
+    id: 16
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b273da773f7e79db9a619b151d1a",
+    name: "Monarchy of Roses",
+    duration: "2:52",
+    artist: "Red Hot Chilli Peppers",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/peca-intima.mp3",
+    id: 17
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b27301aeb110e069a8025d1f60e6",
+    name:"Esquiva da Esgrima",
+    duration:"5:16",
+    artist: "Criolo",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/peca-intima.mp3",
+    id: 18
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b273a4c3a6f5913f662897a388fa",
+    name: "A Ordem Natural das Coisas",
+    duration: "3:24",
+    artist:"Emicida",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/mentirosa.mp3",
+    id: 19
+},
+{
+    image: "https://i.scdn.co/image/ab67616d0000b273d86d67f43b241040ba5b8147",
+    name: "Subirusdoistiozin",
+    duration: "5:16",
+    artist: "Criolo",
+    audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/mentirosa.mp3",
+    id: 20
+}
+];
 
 //   {
 //     image: "https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24",

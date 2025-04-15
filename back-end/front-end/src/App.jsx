@@ -16,7 +16,7 @@ const App = () => {
     <Routes>
         <Route path="/" element= {<Home />}/>
         <Route path="/artists" element= {<Artists />} />
-        <Route path="/artists/:id" element= {<Artist />} />
+        <Route path="/artist/:id" element= {<Artist />} />
         <Route path="/songs" element= {<Songs />} />
         <Route path="/song/:id" element= {<Song />} />
     {/* Os dois pontos após as rotas significam que aquela rota será acessada e todas as informações que vierem depois dela serão um "id" e poderão ser acessadas */}

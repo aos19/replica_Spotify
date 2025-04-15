@@ -22,11 +22,10 @@ const SingleItem = ({ _id, name, image, banner, artist, idPath }) => {
             <div className="single-item__2lines">
               <p className="single-item__title">{name}</p>
             </div>
-        <div/>
         
         <p className="single-item__type">{artist ?? "Artista"}</p> 
         {/* Tem artista? Se sim, use ele mesmo (função dos "??") retira a necessidade de escrever "undefined" ou "null" */}
-      </div>
+        </div>
   </Link>
   );
 };
